@@ -12,7 +12,7 @@ class User(db.Model, SerializerMixin):
 
     @hybrid_property
     def password_hash(self):
-        raise Exception('Password hashes may not be viewed.')
+        return "Password hashes may not be viewed."
 
     @password_hash.setter
     def password_hash(self, password):

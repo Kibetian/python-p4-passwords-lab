@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "phase_4_password_protection_lab-client": "file:.."
+  }
+}
